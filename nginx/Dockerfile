@@ -22,3 +22,6 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Nginx launch
 CMD [ "nginx", "-g", "daemon off;" ]
+
+# Test
+EXPOSE 443
