@@ -2,7 +2,7 @@ services:
 
   mariadb:
     container_name: mariadb
-    build: ./mariadb
+    build: ./srcs/mariadb
     volumes:
       - mariadb:/var/lib/mysql
     env_file:
@@ -13,7 +13,7 @@ services:
 
   wordpress:
     container_name: wordpress
-    build: ./wordpress
+    build: ./srcs/wordpress
     volumes:
       - wordpress:/var/www/wordpress
     env_file:
@@ -35,7 +35,7 @@ services:
     depends_on:
       - wordpress
     build:
-      context: ./nginx
+      context: ./srcs/nginx
     env_file: .env
     restart: on-failure
 
