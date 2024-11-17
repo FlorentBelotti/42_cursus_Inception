@@ -44,7 +44,7 @@ To get started:
 4. Run the project setup using: "make all".
 5. Clean containers using: "make clean".
 
-### Mandatory Part![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+### Mandatory_Part![---------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <section id="Mandatory-part">
 
 <div align="justify">
